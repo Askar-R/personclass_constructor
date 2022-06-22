@@ -1,13 +1,9 @@
 class Person {
-  age;
   name;
-  constructor(age, name) {
-    this.age = age;
+  constructor(name) {
     this.name = name;
   }
   introduceSelf() {
-    console.log(`Hi! I'm ${this.name}, I'm ${this.age} years old.`);
+    console.log(`Hi! I'm ${this.name}`);
   }
 }
-const xyz = new Person(31, "Razan");
-xyz.introduceSelf();
